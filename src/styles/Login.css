@@ -1,0 +1,44 @@
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 300px;
+  height: 20vh;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  background-image: url('../assets/HomeBackground.jpg'); /* Adjust the path based on your project structure */
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0); /* Set text color to make it readable on the background */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}

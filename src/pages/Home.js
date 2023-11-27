@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import BannerImage from '../assets/Background1.png';
+import BannerImage from '../assets/HomeBackground.jpg';
+import '../styles/Home.css';
+
+
 
 function Home() {
   return (
@@ -8,7 +11,7 @@ function Home() {
       <div className="headerContainer" >
         <h1> DISHCOVERY </h1>
         <p> DISHCOVER FOOD RECIPES</p>
-        < Link to="/menu">
+        < Link to="/login">
           <button> Dishcover </button>
         </Link>
       </div>
