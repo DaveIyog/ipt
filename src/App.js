@@ -7,13 +7,12 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './styles/Home.css';
 import About from './pages/About';
 import Login from './pages/Login';
-import HApp from './HApp';
+import Homepage from './pages/Homepage';
 
 
 
 
-
-const App = () => {
+const App = () => { 
   return (
     <div className="App">
       <Router>
@@ -22,7 +21,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/secondapp" element={<HApp />} />
+          <Route path="/homepage" element={<Homepage />} />
           </Routes>
         <Footer />
       </Router>

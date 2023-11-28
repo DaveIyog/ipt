@@ -7,13 +7,15 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="leftSide">
-        <img src={Logo} alt="Dishcovery Logo" />
+        {/* Wrap the logo with Link and set "to" prop to the home route */}
+        <Link to="/">
+          <img src={Logo} alt="Dishcovery Logo" />
+        </Link>
       </div>
       <div className="rightSide">
         <Link to="/"> Home </Link>
         <Link to="/about"> About </Link>
         <Link to="/login"> Login </Link>
-        
       </div>
     </div>
   );
